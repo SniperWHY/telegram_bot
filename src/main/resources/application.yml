@@ -1,0 +1,19 @@
+telegramBot:
+  token: "<your telegram bot token>"
+  username: "<your telegram bot username>"
+
+openai:
+  model: "<chatGPT model>"
+  maxToken: 4096 # max token length
+  apikey: "<your openai api key>"
+  timeout: 40 # timeout in seconds
+
+app:
+  proxy:
+    host: "127.0.0.1" # proxy host
+    port: 7890 # proxy port
+    open: false # whether to use proxy
+
+  maxSession: 10 # max session count
+  maxThread: 8 # max thread count
+  token: "<your token>"
